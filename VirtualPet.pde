@@ -7,23 +7,38 @@ void draw(){
   ellipse((700/2),300,500,520);
 
   fill(255,255,255);
-  ellipse(700/2-100,250,110,110); // white of left eye
+  ellipse(700/2-100,220,110,110); // white of left eye
 
   fill(0,0,0); // black part of left eye
   stroke(255,255,255);
-  ellipse((700/2)-100,250,100,100);
+  ellipse((700/2)-100,220,100,100);
 
   fill(255,255,255);
-  ellipse(700/2+100,250,110,110); // white of left eye
+  ellipse(700/2+100,220,110,110); // white of left eye
 
   fill(0,0,0); // black part of left eye
   stroke(255,255,255);
-  ellipse((700/2)+100,250,100,100);
+  ellipse((700/2)+100,220,100,100);
 
   //ears
-  triangle(700/2-210,100,700/2-290,100,700/2-300,0);
-
+  fill(224,179,134);
+  triangle(113,220,180,134,100,30);
+  
+  fill(227,198,169);
+  triangle(118,204,167,141,105,40);
+  
+  fill(224,179,134);
+  triangle(585,220,550,134,601,30);
+  
+  fill(227,198,169);
+  triangle(555,135,583,189,595,52);
+  
+  //131,190   167,141
+  
+  //157,134
+  
   //ellipse(75,75,60,60); // x,y,width, height
+  System.out.println(mouseX +", " + mouseY);
 
 
 
