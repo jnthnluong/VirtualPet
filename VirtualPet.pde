@@ -33,17 +33,48 @@ void draw(){
   fill(227,198,169);
   triangle(555,135,583,189,595,52);
   
-  //131,190   167,141
   
+  
+  //nose at 341,324
+
+  //uppernose
+  fill(211,190,171);
+  rect(325,275,40,80);
+  //327,345
+  fill(206,194,211);
+  triangle(326,353,326+40,353,326+20,353+30);
+  //326,353  
+  //131,190   167,141
+
   //157,134
   
   //ellipse(75,75,60,60); // x,y,width, height
   System.out.println(mouseX +", " + mouseY);
+  
 
 
 
+//whisker (HOW DO YOU ROTATE IT NICELY??)
+  //left
+  fill(255,255,255);
+ 
+  rect(0,306,170,5);
+  rect(0,362,170,5);
+  rect(7,443,170,5);
+  
+  //right
+  
+  rect(533,306,170,5);
+  rect(533,362,170,5);
+  rect(533,443,170,5);
+ 
+  textSize(128);
+  rotate(PI/4);
+  
+  text("3", 308, 521); 
 
-  //arc(150,150 200,200,0, PI/2); // x,y,?,?
+
+  //mouth
+  
+  
 }
-
-
