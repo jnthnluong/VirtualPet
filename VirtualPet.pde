@@ -3,14 +3,22 @@ void setup(){
   size(700,600);
 }
 void draw(){
+    //legs
+  fill(232,190,150);
+  ellipse(400,558,40,120);
+  ellipse(450,558,40,120);
+  ellipse(550,558,40,120);
+  ellipse(600,558,40,120);
+  
+  //tail
+  fill(232,167,105);
+  ellipse(646,353,50,300);
+  
   //body
   fill(232,167,105);
   ellipse(502,508,300,150);
   
-  //legs
-  fill(232,190,150);
-  ellipse(502,558,40,60);
-  ellipse(522,558,40,60);
+ 
   
    //head
   ellipse((700/2),300,500,520);
