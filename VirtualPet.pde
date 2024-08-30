@@ -3,7 +3,16 @@ void setup(){
   size(700,600);
 }
 void draw(){
-  fill(232,167,105); //head
+  //body
+  fill(232,167,105);
+  ellipse(502,508,300,150);
+  
+  //legs
+  fill(232,190,150);
+  ellipse(502,558,40,60);
+  ellipse(522,558,40,60);
+  
+   //head
   ellipse((700/2),300,500,520);
 
   fill(255,255,255);
@@ -69,12 +78,13 @@ void draw(){
   rect(533,443,170,5);
  
   textSize(128);
-  rotate(PI/4);
+  translate(width/2,height/2);
+  rotate(PI/2);
   
-  text("3", 308, 521); 
+  text("3", 85,45); 
 
 
-  //mouth
+ 
   
   
 }
